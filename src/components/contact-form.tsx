@@ -97,8 +97,8 @@ export function ContactForm() {
             className="w-full border-b border-border bg-transparent py-4 text-lg focus:border-primary focus:outline-none"
             placeholder="Your name"
           />
-          {errors.name && (
-            <p className="text-sm text-destructive">{errors.name}</p>
+          {errors["name"] && (
+            <p className="text-sm text-destructive">{errors["name"]}</p>
           )}
         </div>
 
