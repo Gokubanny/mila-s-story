@@ -118,8 +118,8 @@ export function ContactForm() {
             className="w-full border-b border-border bg-transparent py-4 text-lg focus:border-primary focus:outline-none"
             placeholder="you@example.com"
           />
-          {errors.email && (
-            <p className="text-sm text-destructive">{errors.email}</p>
+          {errors["email"] && (
+            <p className="text-sm text-destructive">{errors["email"]}</p>
           )}
         </div>
       </div>
