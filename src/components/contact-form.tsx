@@ -182,8 +182,8 @@ export function ContactForm() {
           className="w-full resize-none border-b border-border bg-transparent py-4 text-lg focus:border-primary focus:outline-none"
           placeholder="Describe the project or collaboration..."
         />
-        {errors.message && (
-          <p className="text-sm text-destructive">{errors.message}</p>
+        {errors["message"] && (
+          <p className="text-sm text-destructive">{errors["message"]}</p>
         )}
       </div>
 
