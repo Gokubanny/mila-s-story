@@ -51,16 +51,26 @@ function ContactPage() {
                 >
                   Work With Me
                 </Link>{" "}
-                page or reach out to my agents at CAA.
+                page, reach out to my agents at CAA, or message me directly on
+                Zangi.
+              </p>
+              <p className="font-mono text-[11px] uppercase tracking-wider text-muted">
+                Zangi:{" "}
+                <a
+                  href="tel:+3291367683"
+                  className="text-primary transition-colors hover:text-foreground"
+                >
+                  329 136 7683
+                </a>
               </p>
             </section>
 
             <section className="space-y-4">
               <h2 className="text-2xl font-bold">Press & Media</h2>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                High-res photos, official bio, and logos are available for
-                press and media. Please contact the communications team through
-                CAA for interview requests.
+                High-res photos, official bio, and logos are available for press
+                and media. Please contact the communications team through CAA for
+                interview requests.
               </p>
             </section>
 
