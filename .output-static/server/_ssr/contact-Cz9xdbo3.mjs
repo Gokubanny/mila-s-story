@@ -1,7 +1,7 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { h as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as SiteHeader, t as SiteFooter } from "./site-footer-NltvvXx8.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/contact-ChCzPSvj.js
+//#region node_modules/.nitro/vite/services/ssr/assets/contact-Cz9xdbo3.js
 var import_jsx_runtime = require_jsx_runtime();
 function ContactPage() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -26,23 +26,38 @@ function ContactPage() {
 						children: [
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 								className: "space-y-4",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-									className: "text-2xl font-bold",
-									children: "Professional Inquiries"
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-									className: "text-lg leading-relaxed text-muted-foreground",
-									children: [
-										"For professional and collaboration inquiries, please use the form on the",
-										" ",
-										/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
-											to: "/work-with-me",
-											className: "text-primary underline-offset-4 transition-colors hover:underline",
-											children: "Work With Me"
-										}),
-										" ",
-										"page or reach out to my agents at CAA."
-									]
-								})]
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+										className: "text-2xl font-bold",
+										children: "Professional Inquiries"
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+										className: "text-lg leading-relaxed text-muted-foreground",
+										children: [
+											"For professional and collaboration inquiries, please use the form on the",
+											" ",
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+												to: "/work-with-me",
+												className: "text-primary underline-offset-4 transition-colors hover:underline",
+												children: "Work With Me"
+											}),
+											" ",
+											"page, reach out to my agents at CAA, or message me directly on Zangi."
+										]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+										className: "font-mono text-[11px] uppercase tracking-wider text-muted",
+										children: [
+											"Zangi:",
+											" ",
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+												href: "tel:+3291367683",
+												className: "text-primary transition-colors hover:text-foreground",
+												children: "329 136 7683"
+											})
+										]
+									})
+								]
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 								className: "space-y-4",

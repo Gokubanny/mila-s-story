@@ -26,87 +26,10 @@ var public_assets_data_default = {
 	},
 	"/_headers": {
 		"type": "text/plain; charset=utf-8",
-		"etag": "\"3e-W6P+hMLSiXbt1kmPTgkl2e6wmcE\"",
-		"mtime": "2026-08-19T14:51:11.325Z",
-		"size": 62,
+		"etag": "\"0-2jmj7l5rSw0yVb/vlWAYkK/YBwk\"",
+		"mtime": "2026-08-19T15:02:10.902Z",
+		"size": 0,
 		"path": "../public/_headers"
-	},
-	"/assets/about-wJdAPh0W.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"8e6-lIBoXc2NYA/g3UOqbtTSe54eIxU\"",
-		"mtime": "2026-08-19T14:51:09.683Z",
-		"size": 2278,
-		"path": "../public/assets/about-wJdAPh0W.js"
-	},
-	"/assets/films-DPqdgjwG.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"7f1-KL1IccQVK6tIJVo1sHDv/EqNva0\"",
-		"mtime": "2026-08-19T14:51:09.688Z",
-		"size": 2033,
-		"path": "../public/assets/films-DPqdgjwG.js"
-	},
-	"/assets/films-DnK7VLO3.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"45c-TqJrtfsPefjp5gAeOBlrqxtIi54\"",
-		"mtime": "2026-08-19T14:51:09.691Z",
-		"size": 1116,
-		"path": "../public/assets/films-DnK7VLO3.js"
-	},
-	"/assets/contact-D7TfdF5J.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"83c-xqgEEUKOBZHIZyeEUDVctNCHbRo\"",
-		"mtime": "2026-08-19T14:51:09.686Z",
-		"size": 2108,
-		"path": "../public/assets/contact-D7TfdF5J.js"
-	},
-	"/assets/hero-portrait-Ce9uRFPk.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"23ae4-VSn2Bf5uL02ff3lpvV5l+L44YAI\"",
-		"mtime": "2026-08-19T14:51:09.731Z",
-		"size": 146148,
-		"path": "../public/assets/hero-portrait-Ce9uRFPk.jpg"
-	},
-	"/assets/routes-BDrfCJKg.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"dc4-JYmUNGucnytDjyhGXkZe2UCKvj4\"",
-		"mtime": "2026-08-19T14:51:09.692Z",
-		"size": 3524,
-		"path": "../public/assets/routes-BDrfCJKg.js"
-	},
-	"/assets/production-still-DD9KWIBk.jpg": {
-		"type": "image/jpeg",
-		"etag": "\"2c14c-8z7n+PhkUhZzWa3TiMygMMyaFvE\"",
-		"mtime": "2026-08-19T14:51:09.732Z",
-		"size": 180556,
-		"path": "../public/assets/production-still-DD9KWIBk.jpg"
-	},
-	"/assets/styles-_rr2-F0v.css": {
-		"type": "text/css; charset=utf-8",
-		"etag": "\"13316-6V8sbzTI1LYqI/PyIUuC4J0/EEg\"",
-		"mtime": "2026-08-19T14:51:09.734Z",
-		"size": 78614,
-		"path": "../public/assets/styles-_rr2-F0v.css"
-	},
-	"/assets/site-footer-DCNfl3IQ.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"81a-tQpwaW+s1rUUkhb7McDiIzDCw0Q\"",
-		"mtime": "2026-08-19T14:51:09.697Z",
-		"size": 2074,
-		"path": "../public/assets/site-footer-DCNfl3IQ.js"
-	},
-	"/assets/work-with-me-B7XW7V6f.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"10593-/Bo2PWQjnMWbEubo4Cotc3+Xhiw\"",
-		"mtime": "2026-08-19T14:51:09.701Z",
-		"size": 66963,
-		"path": "../public/assets/work-with-me-B7XW7V6f.js"
-	},
-	"/assets/index-BN-mCyWQ.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"9156a-rQLUzaXcCRKVqG1CuPEgqOllo5A\"",
-		"mtime": "2026-08-19T14:51:09.682Z",
-		"size": 595306,
-		"path": "../public/assets/index-BN-mCyWQ.js"
 	}
 };
 //#endregion
@@ -118,32 +41,7 @@ function isPublicAssetURL(id = "") {
 	return false;
 }
 //#endregion
-//#region node_modules/nitro/dist/runtime/internal/route-rules.mjs
-var headers = ((m) => function headersRouteRule(event) {
-	for (const [key, value] of Object.entries(m.options || {})) event.res.headers.set(key, value);
-});
-//#endregion
 //#region #nitro/virtual/routing
-var findRouteRules = /* @__PURE__ */ (() => {
-	const $0 = [{
-		name: "headers",
-		route: "/assets/**",
-		handler: headers,
-		options: { "cache-control": "public, max-age=31536000, immutable" }
-	}];
-	return (m, p) => {
-		let r = [];
-		if (p.charCodeAt(p.length - 1) === 47) p = p.slice(0, -1) || "/";
-		let s = p.split("/");
-		if (s.length > 1) {
-			if (s[1] === "assets") r.unshift({
-				data: $0,
-				params: { "_": s.slice(2).join("/") }
-			});
-		}
-		return r;
-	};
-})();
 var _lazy_I8S4gM = defineLazyEventHandler(() => import("./_chunks/ssr-renderer.mjs"));
 var findRoute = /* @__PURE__ */ (() => {
 	const data = {
@@ -235,16 +133,6 @@ function createNitroApp() {
 function createH3App(config) {
 	const h3App = new H3Core(config);
 	h3App["~findRoute"] = (event) => findRoute(event.req.method, event.url.pathname);
-	h3App["~getMiddleware"] = (event, route) => {
-		const pathname = event.url.pathname;
-		const method = event.req.method;
-		const middleware = [];
-		const routeRules = getRouteRules(method, pathname);
-		event.context.routeRules = routeRules?.routeRules;
-		if (routeRules?.routeRuleMiddleware.length) middleware.push(...routeRules.routeRuleMiddleware);
-		if (route?.data?.middleware?.length) middleware.push(...route.data.middleware);
-		return middleware;
-	};
 	return h3App;
 }
 //#endregion
@@ -263,43 +151,6 @@ function useNitroHooks() {
 	const hooks = nitroApp.hooks;
 	if (hooks) return hooks;
 	return nitroApp.hooks = new HookableCore();
-}
-function getRouteRules(method, pathname) {
-	const m = findRouteRules(method, pathname);
-	if (!m?.length) return { routeRuleMiddleware: [] };
-	const routeRules = {};
-	for (const layer of m) for (const rule of layer.data) {
-		const currentRule = routeRules[rule.name];
-		if (currentRule) {
-			if (rule.options === false) {
-				delete routeRules[rule.name];
-				continue;
-			}
-			if (typeof currentRule.options === "object" && typeof rule.options === "object") currentRule.options = {
-				...currentRule.options,
-				...rule.options
-			};
-			else currentRule.options = rule.options;
-			currentRule.route = rule.route;
-			currentRule.params = {
-				...currentRule.params,
-				...layer.params
-			};
-		} else if (rule.options !== false) routeRules[rule.name] = {
-			...rule,
-			params: layer.params
-		};
-	}
-	const middleware = [];
-	const orderedRules = Object.values(routeRules).sort((a, b) => (a.handler?.order || 0) - (b.handler?.order || 0));
-	for (const rule of orderedRules) {
-		if (rule.options === false || !rule.handler) continue;
-		middleware.push(rule.handler(rule));
-	}
-	return {
-		routeRules,
-		routeRuleMiddleware: middleware
-	};
 }
 //#endregion
 //#region node_modules/nitro/dist/presets/cloudflare/runtime/_module-handler.mjs

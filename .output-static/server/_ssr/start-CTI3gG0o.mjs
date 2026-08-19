@@ -1,5 +1,5 @@
 import { t as createClient } from "../_libs/supabase__supabase-js.mjs";
-import { n as createCsrfMiddleware, r as createMiddleware } from "./server-CVz6m26J.mjs";
+import { n as createCsrfMiddleware, r as createMiddleware } from "./server-t61AKcOF.mjs";
 import { t as renderErrorPage } from "./ssr.mjs";
 import processModule from "node:process";
 //#region node_modules/.nitro/vite/services/ssr/assets/start-CTI3gG0o.js

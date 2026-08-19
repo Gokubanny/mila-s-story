@@ -3,8 +3,8 @@ import { n as require_jsx_runtime, r as require_react, t as QueryClientProvider 
 import { _ as useRouter, c as HeadContent, d as Outlet, f as lazyRouteComponent, h as Link, m as createRootRouteWithContext, p as createFileRoute, s as Scripts, u as createRouter } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as Toaster } from "../_libs/sonner.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-DxvYNmCo.js
-var router_DxvYNmCo_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
+//#region node_modules/.nitro/vite/services/ssr/assets/router-HpyejvrT.js
+var router_HpyejvrT_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var Toaster$1 = ({ ...props }) => {
@@ -242,7 +242,7 @@ var Route$3 = createFileRoute("/about")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-var $$splitComponentImporter$2 = () => import("./contact-ChCzPSvj.mjs");
+var $$splitComponentImporter$2 = () => import("./contact-Cz9xdbo3.mjs");
 var Route$2 = createFileRoute("/contact")({
 	head: () => ({ meta: [
 		{ title: "Contact — Mila Kunis" },
@@ -296,7 +296,7 @@ var Route$1 = createFileRoute("/films")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./work-with-me-pWkWWD40.mjs");
+var $$splitComponentImporter = () => import("./work-with-me-BYeIVUEc.mjs");
 var Route = createFileRoute("/work-with-me")({
 	head: () => ({ meta: [
 		{ title: "Work With Me — Mila Kunis" },
@@ -361,4 +361,4 @@ var getRouter = () => {
 	});
 };
 //#endregion
-export { getRouter, router_DxvYNmCo_exports as t };
+export { getRouter, router_HpyejvrT_exports as t };

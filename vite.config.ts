@@ -7,12 +7,14 @@ export default defineConfig({
     plugins: [
       nitro({
         preset: "static",
+        output: {
+          dir: ".output-static",
+          publicDir: ".output-static/public",
+        },
       }),
     ],
   },
   tanstackStart: {
-    // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
-    // nitro/vite builds from this
     server: { entry: "server" },
   },
 });
